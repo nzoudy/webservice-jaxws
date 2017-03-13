@@ -1,0 +1,6 @@
+
+wsgen -s . -wsdl -cp ../bin com.zoudys.Banque
+
+wsimport -s . BanqueWS.wsdl
+
+xjc PaysWS.xsd
